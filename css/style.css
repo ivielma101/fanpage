@@ -1,17 +1,23 @@
 html {
     height: 100%;
+    width:100%;
 }
-
+.header{
+    font-size: 200px;
+    text-align:center;
+}
 body {
-    height: 100%;
-    
+    width: 100%;
+     background-repeat: no-repeat;
+    background-image: URL("https://cdn.pixabay.com/photo/2017/07/03/06/40/rain-2466803_960_720.jpg");
+    background-size: 200% 200%;
 }
 a {
     text-decoration: none;
 }
 
 .main {
-    height: 100%;
+    height: 1000px;
 }
 .social-image{
     width: 30px;
@@ -20,4 +26,23 @@ a {
 .navbar{
     display:flex;
     justify-content: space-around;
+}
+
+.leftPane {
+    height:100%;
+    width:50%;
+    font-size:20px; 
+    background-color: white;
+    
+}
+.rightPane {
+    background-image:url("https://i.pinimg.com/originals/3d/47/4b/3d474b5d03efc96ec515593073e78bad.jpg");
+   width:50%;
+   height:10000px;
+    background-repeat: no-repeat;
+}
+.aboutMain{
+    display:flex;
+    width: 100%;
+    height:100%;
 }
