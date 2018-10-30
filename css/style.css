@@ -3,8 +3,10 @@ html {
     width:100%;
 }
 .header{
-    font-size: 200px;
+    font-size: 120px;
     text-align:center;
+    font-family: 'Lobster', cursive;
+    color:lightblue;
 }
 body {
     width: 100%;
@@ -18,6 +20,12 @@ a {
 
 .main {
     height: 1000px;
+    width:1000px;
+    background-image: URL("https://images.pexels.com/photos/1525108/pexels-photo-1525108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .social-image{
     width: 30px;
@@ -26,6 +34,9 @@ a {
 .navbar{
     display:flex;
     justify-content: space-around;
+    background-color: yellow;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .leftPane {
@@ -45,4 +56,20 @@ a {
     display:flex;
     width: 100%;
     height:100%;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.thumbnail-image {
+    max-height: 500px;
+    MAX-width: 450px;
+    margin: 50px;
+    border: solid #8e7932;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
 }
