@@ -10,18 +10,20 @@ html {
 }
 body {
     width: 100%;
-     background-repeat: no-repeat;
-    background-image: URL("https://cdn.pixabay.com/photo/2017/07/03/06/40/rain-2466803_960_720.jpg");
+    background-repeat: no-repeat;
+    background-image: URL("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: 200% 200%;
 }
 a {
     text-decoration: none;
+    color:Blue;
+    font-family: Helvetica, sans-serif;
 }
 
 .main {
     height: 1000px;
     width:1000px;
-    background-image: URL("https://images.pexels.com/photos/1525108/pexels-photo-1525108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: URL("https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2017/10/riverdale-season-2-release-date.jpg?itok=WS-fR5NP");
     background-repeat: no-repeat;
     background-size:100%;
     margin-left: auto;
@@ -34,7 +36,7 @@ a {
 .navbar{
     display:flex;
     justify-content: space-around;
-    background-color: yellow;
+    background-color:#e0ffff;
     padding-top: 15px;
     padding-bottom: 15px;
 }
